@@ -1,0 +1,537 @@
+Структура папок
+Серийный номер тома: F0E0-98C6
+C:.
+|   .cozignore
+|   RumbleverseClient.exe
+|   we rumble.txt
+|   список.txt
+|   
++---Engine
+|   +---Binaries
+|   |   +---ThirdParty
+|   |   |   +---CEF3
+|   |   |   |   \---Win64
+|   |   |   |       |   chrome_elf.dll
+|   |   |   |       |   d3dcompiler_43.dll
+|   |   |   |       |   d3dcompiler_47.dll
+|   |   |   |       |   icudtl.dat
+|   |   |   |       |   libcef.dll
+|   |   |   |       |   libEGL.dll
+|   |   |   |       |   libGLESv2.dll
+|   |   |   |       |   natives_blob.bin
+|   |   |   |       |   snapshot_blob.bin
+|   |   |   |       |   
+|   |   |   |       \---Resources
+|   |   |   |           |   cef.pak
+|   |   |   |           |   cef_100_percent.pak
+|   |   |   |           |   cef_200_percent.pak
+|   |   |   |           |   cef_extensions.pak
+|   |   |   |           |   devtools_resources.pak
+|   |   |   |           |   
+|   |   |   |           \---locales
+|   |   |   |                   am.pak
+|   |   |   |                   ar.pak
+|   |   |   |                   bg.pak
+|   |   |   |                   bn.pak
+|   |   |   |                   ca.pak
+|   |   |   |                   cs.pak
+|   |   |   |                   da.pak
+|   |   |   |                   de.pak
+|   |   |   |                   el.pak
+|   |   |   |                   en-GB.pak
+|   |   |   |                   en-US.pak
+|   |   |   |                   es-419.pak
+|   |   |   |                   es.pak
+|   |   |   |                   et.pak
+|   |   |   |                   fa.pak
+|   |   |   |                   fi.pak
+|   |   |   |                   fil.pak
+|   |   |   |                   fr.pak
+|   |   |   |                   gu.pak
+|   |   |   |                   he.pak
+|   |   |   |                   hi.pak
+|   |   |   |                   hr.pak
+|   |   |   |                   hu.pak
+|   |   |   |                   id.pak
+|   |   |   |                   it.pak
+|   |   |   |                   ja.pak
+|   |   |   |                   kn.pak
+|   |   |   |                   ko.pak
+|   |   |   |                   lt.pak
+|   |   |   |                   lv.pak
+|   |   |   |                   ml.pak
+|   |   |   |                   mr.pak
+|   |   |   |                   ms.pak
+|   |   |   |                   nb.pak
+|   |   |   |                   nl.pak
+|   |   |   |                   pl.pak
+|   |   |   |                   pt-BR.pak
+|   |   |   |                   pt-PT.pak
+|   |   |   |                   ro.pak
+|   |   |   |                   ru.pak
+|   |   |   |                   sk.pak
+|   |   |   |                   sl.pak
+|   |   |   |                   sr.pak
+|   |   |   |                   sv.pak
+|   |   |   |                   sw.pak
+|   |   |   |                   ta.pak
+|   |   |   |                   te.pak
+|   |   |   |                   th.pak
+|   |   |   |                   tr.pak
+|   |   |   |                   uk.pak
+|   |   |   |                   vi.pak
+|   |   |   |                   zh-CN.pak
+|   |   |   |                   zh-TW.pak
+|   |   |   |                   
+|   |   |   +---DbgHelp
+|   |   |   |       dbghelp.dll
+|   |   |   |       
+|   |   |   +---NVIDIA
+|   |   |   |   +---GeForceNOW
+|   |   |   |   |   \---Win64
+|   |   |   |   |           GfnRuntimeSdk.dll
+|   |   |   |   |           
+|   |   |   |   \---NVaftermath
+|   |   |   |       \---Win64
+|   |   |   |               GFSDK_Aftermath_Lib.x64.dll
+|   |   |   |               
+|   |   |   +---Ogg
+|   |   |   |   \---Win64
+|   |   |   |       \---VS2015
+|   |   |   |               libogg_64.dll
+|   |   |   |               
+|   |   |   +---PhysX3
+|   |   |   |   \---Win64
+|   |   |   |       \---VS2015
+|   |   |   |               ApexFramework_x64.dll
+|   |   |   |               APEX_Clothing_x64.dll
+|   |   |   |               APEX_Legacy_x64.dll
+|   |   |   |               NvCloth_x64.dll
+|   |   |   |               PhysX3Common_x64.dll
+|   |   |   |               PhysX3Cooking_x64.dll
+|   |   |   |               PhysX3_x64.dll
+|   |   |   |               PxFoundation_x64.dll
+|   |   |   |               PxPvdSDK_x64.dll
+|   |   |   |               
+|   |   |   +---Vorbis
+|   |   |   |   \---Win64
+|   |   |   |       \---VS2015
+|   |   |   |               libvorbisfile_64.dll
+|   |   |   |               libvorbis_64.dll
+|   |   |   |               
+|   |   |   \---Windows
+|   |   |       \---XAudio2_9
+|   |   |           \---x64
+|   |   |                   xaudio2_9redist.dll
+|   |   |                   
+|   |   \---Win64
+|   |           api-ms-win-core-console-l1-1-0.dll
+|   |           api-ms-win-core-console-l1-2-0.dll
+|   |           api-ms-win-core-datetime-l1-1-0.dll
+|   |           api-ms-win-core-debug-l1-1-0.dll
+|   |           api-ms-win-core-errorhandling-l1-1-0.dll
+|   |           api-ms-win-core-file-l1-1-0.dll
+|   |           api-ms-win-core-file-l1-2-0.dll
+|   |           api-ms-win-core-file-l2-1-0.dll
+|   |           api-ms-win-core-handle-l1-1-0.dll
+|   |           api-ms-win-core-heap-l1-1-0.dll
+|   |           api-ms-win-core-interlocked-l1-1-0.dll
+|   |           api-ms-win-core-libraryloader-l1-1-0.dll
+|   |           api-ms-win-core-localization-l1-2-0.dll
+|   |           api-ms-win-core-memory-l1-1-0.dll
+|   |           api-ms-win-core-namedpipe-l1-1-0.dll
+|   |           api-ms-win-core-processenvironment-l1-1-0.dll
+|   |           api-ms-win-core-processthreads-l1-1-0.dll
+|   |           api-ms-win-core-processthreads-l1-1-1.dll
+|   |           api-ms-win-core-profile-l1-1-0.dll
+|   |           api-ms-win-core-rtlsupport-l1-1-0.dll
+|   |           api-ms-win-core-string-l1-1-0.dll
+|   |           api-ms-win-core-synch-l1-1-0.dll
+|   |           api-ms-win-core-synch-l1-2-0.dll
+|   |           api-ms-win-core-sysinfo-l1-1-0.dll
+|   |           api-ms-win-core-timezone-l1-1-0.dll
+|   |           api-ms-win-core-util-l1-1-0.dll
+|   |           api-ms-win-crt-conio-l1-1-0.dll
+|   |           api-ms-win-crt-convert-l1-1-0.dll
+|   |           api-ms-win-crt-environment-l1-1-0.dll
+|   |           api-ms-win-crt-filesystem-l1-1-0.dll
+|   |           api-ms-win-crt-heap-l1-1-0.dll
+|   |           api-ms-win-crt-locale-l1-1-0.dll
+|   |           api-ms-win-crt-math-l1-1-0.dll
+|   |           api-ms-win-crt-multibyte-l1-1-0.dll
+|   |           api-ms-win-crt-private-l1-1-0.dll
+|   |           api-ms-win-crt-process-l1-1-0.dll
+|   |           api-ms-win-crt-runtime-l1-1-0.dll
+|   |           api-ms-win-crt-stdio-l1-1-0.dll
+|   |           api-ms-win-crt-string-l1-1-0.dll
+|   |           api-ms-win-crt-time-l1-1-0.dll
+|   |           api-ms-win-crt-utility-l1-1-0.dll
+|   |           concrt140.dll
+|   |           CrashReportClient.exe
+|   |           msvcp140.dll
+|   |           msvcp140_1.dll
+|   |           msvcp140_2.dll
+|   |           msvcp140_codecvt_ids.dll
+|   |           ucrtbase.dll
+|   |           UnrealCEFSubProcess.exe
+|   |           vccorlib140.dll
+|   |           vcruntime140.dll
+|   |           vcruntime140_1.dll
+|   |           X3DAudio1_7.dll
+|   |           XAPOFX1_5.dll
+|   |           XAudio2_7.dll
+|   |           xinput1_3.dll
+|   |           
+|   +---Plugins
+|   |   \---IronGalaxy
+|   |       \---IGCozmo
+|   |           \---Source
+|   |               \---External
+|   |                   \---Cozmo
+|   |                       \---x64
+|   |                           \---Release
+|   |                                   aws-cpp-sdk-gamelift-server.dll
+|   |                                   boost_date_time-vc141-mt-x64-1_68.dll
+|   |                                   boost_random-vc141-mt-x64-1_68.dll
+|   |                                   boost_system-vc141-mt-x64-1_68.dll
+|   |                                   Cozmo.dll
+|   |                                   cpprest141_2_10.dll
+|   |                                   rest-api-client.dll
+|   |                                   zlib.dll
+|   |                                   
+|   \---Programs
+|       \---CrashReportClient
+|           \---Content
+|               \---Paks
++---Rumbleverse
+|   +---Binaries
+|   |   \---Win64
+|   |       |   api-ms-win-core-console-l1-1-0.dll
+|   |       |   api-ms-win-core-console-l1-2-0.dll
+|   |       |   api-ms-win-core-datetime-l1-1-0.dll
+|   |       |   api-ms-win-core-debug-l1-1-0.dll
+|   |       |   api-ms-win-core-errorhandling-l1-1-0.dll
+|   |       |   api-ms-win-core-file-l1-1-0.dll
+|   |       |   api-ms-win-core-file-l1-2-0.dll
+|   |       |   api-ms-win-core-file-l2-1-0.dll
+|   |       |   api-ms-win-core-handle-l1-1-0.dll
+|   |       |   api-ms-win-core-heap-l1-1-0.dll
+|   |       |   api-ms-win-core-interlocked-l1-1-0.dll
+|   |       |   api-ms-win-core-libraryloader-l1-1-0.dll
+|   |       |   api-ms-win-core-localization-l1-2-0.dll
+|   |       |   api-ms-win-core-memory-l1-1-0.dll
+|   |       |   api-ms-win-core-namedpipe-l1-1-0.dll
+|   |       |   api-ms-win-core-processenvironment-l1-1-0.dll
+|   |       |   api-ms-win-core-processthreads-l1-1-0.dll
+|   |       |   api-ms-win-core-processthreads-l1-1-1.dll
+|   |       |   api-ms-win-core-profile-l1-1-0.dll
+|   |       |   api-ms-win-core-rtlsupport-l1-1-0.dll
+|   |       |   api-ms-win-core-string-l1-1-0.dll
+|   |       |   api-ms-win-core-synch-l1-1-0.dll
+|   |       |   api-ms-win-core-synch-l1-2-0.dll
+|   |       |   api-ms-win-core-sysinfo-l1-1-0.dll
+|   |       |   api-ms-win-core-timezone-l1-1-0.dll
+|   |       |   api-ms-win-core-util-l1-1-0.dll
+|   |       |   api-ms-win-crt-conio-l1-1-0.dll
+|   |       |   api-ms-win-crt-convert-l1-1-0.dll
+|   |       |   api-ms-win-crt-environment-l1-1-0.dll
+|   |       |   api-ms-win-crt-filesystem-l1-1-0.dll
+|   |       |   api-ms-win-crt-heap-l1-1-0.dll
+|   |       |   api-ms-win-crt-locale-l1-1-0.dll
+|   |       |   api-ms-win-crt-math-l1-1-0.dll
+|   |       |   api-ms-win-crt-multibyte-l1-1-0.dll
+|   |       |   api-ms-win-crt-private-l1-1-0.dll
+|   |       |   api-ms-win-crt-process-l1-1-0.dll
+|   |       |   api-ms-win-crt-runtime-l1-1-0.dll
+|   |       |   api-ms-win-crt-stdio-l1-1-0.dll
+|   |       |   api-ms-win-crt-string-l1-1-0.dll
+|   |       |   api-ms-win-crt-time-l1-1-0.dll
+|   |       |   api-ms-win-crt-utility-l1-1-0.dll
+|   |       |   Client.dll
+|   |       |   Client.dll.bak
+|   |       |   cnfg
+|   |       |   cnfg.bak
+|   |       |   concrt140.dll
+|   |       |   dxgi.dll
+|   |       |   dxgi.dll.bak
+|   |       |   EOSSDK-Win64-Shipping.dll
+|   |       |   libScePad.dll
+|   |       |   log
+|   |       |   msvcp140.dll
+|   |       |   msvcp140_1.dll
+|   |       |   msvcp140_2.dll
+|   |       |   msvcp140_codecvt_ids.dll
+|   |       |   odin.dll
+|   |       |   odin.dll.bak
+|   |       |   odin_crypto.dll
+|   |       |   odin_crypto.dll.bak
+|   |       |   OpenImageDenoise.dll
+|   |       |   RumbleverseClient-Win64-Shipping.dxvk-cache
+|   |       |   RumbleverseClient-Win64-Shipping.exe
+|   |       |   rvclient.version
+|   |       |   rvclient.version.bak
+|   |       |   RVLauncherSetup.exe
+|   |       |   RVUpdateHelper.exe
+|   |       |   RVUpdateHelper.exe.bak
+|   |       |   tbb12.dll
+|   |       |   ucrtbase.dll
+|   |       |   UE4-Librarian.log
+|   |       |   vccorlib140.dll
+|   |       |   vcruntime140.dll
+|   |       |   vcruntime140_1.dll
+|   |       |   X3DAudio1_7.dll
+|   |       |   XAPOFX1_5.dll
+|   |       |   XAudio2_7.dll
+|   |       |   xinput1_3.dll
+|   |       |   
+|   |       \---archive
+|   |               RVVoiceConfig.txt
+|   |               
+|   +---Content
+|   |   +---Movies
+|   |   |   |   IGS_BootSequence2k.bk2
+|   |   |   |   Sheik_BootLogo_EGP.uasset
+|   |   |   |   Sheik_BootLogo_EpicGames.uasset
+|   |   |   |   Sheik_BootLogo_IGS.uasset
+|   |   |   |   TestVid001.uasset
+|   |   |   |   TestVid001_Tex.uasset
+|   |   |   |   VideoPlaybackStruct.uasset
+|   |   |   |   
+|   |   |   +---TestVideo
+|   |   |   |       MagazinePickUp_TestVideo.bk2
+|   |   |   |       MagazinePickUp_TestVideo.uasset
+|   |   |   |       MagazinePickUp_TestVideo_Tex.uasset
+|   |   |   |       WavingTest.bk2
+|   |   |   |       WavingTest.uasset
+|   |   |   |       WavingTest_Tex.uasset
+|   |   |   |       
+|   |   |   \---TutorialVideo
+|   |   |       |   AC_Backtoss.bk2
+|   |   |       |   AC_BlockRecharge.bk2
+|   |   |       |   AC_ChargeableMoves.bk2
+|   |   |       |   AC_Combos.bk2
+|   |   |       |   AC_ElevationDamage.bk2
+|   |   |       |   AC_Hammerfist.bk2
+|   |   |       |   AC_SpinKick.bk2
+|   |   |       |   AC_StaminaBreak.bk2
+|   |   |       |   APS_AttackPriority3.png
+|   |   |       |   APS_AttackTrades.bk2
+|   |   |       |   APS_ViciousAttacks.bk2
+|   |   |       |   EQ_EquipUpImage.png
+|   |   |       |   GUO_GetupBackfist.bk2
+|   |   |       |   GUO_GetUpBlock.bk2
+|   |   |       |   GUO_GetUpCombinations.bk2
+|   |   |       |   GUO_GetUpDodge.bk2
+|   |   |       |   GUO_GetUpLowBlow.bk2
+|   |   |       |   GUO_GetUpSpecialMove.bk2
+|   |   |       |   GUO_GroundAttacks.bk2
+|   |   |       |   GUO_Knockdowns.bk2
+|   |   |       |   INV_DisarmWithDropkick.bk2
+|   |   |       |   INV_GettingToKnowTheCity.png
+|   |   |       |   INV_ItemThrowing.bk2
+|   |   |       |   INV_Pockets.bk2
+|   |   |       |   PG_WelcomeImage.png
+|   |   |       |   SMC_ActivationExplosion.bk2
+|   |   |       |   SMC_Comeback.bk2
+|   |   |       |   SMC_FillingMeter.bk2
+|   |   |       |   SMC_QuickActivation.bk2
+|   |   |       |   SMC_SuperAttack.bk2
+|   |   |       |   SMC_SuperBenefits2.bk2
+|   |   |       |   SP_PerksAndCombatXP.bk2
+|   |   |       |   SP_PerkSynergy.bk2
+|   |   |       |   SP_RumblerStats.bk2
+|   |   |       |   TD_AttackTracking.bk2
+|   |   |       |   TD_Backflip.bk2
+|   |   |       |   TD_BailoutOnHit.bk2
+|   |   |       |   TD_BailoutOnMiss.bk2
+|   |   |       |   TD_CommitmentsAndBailouts.bk2
+|   |   |       |   TD_Dodge.bk2
+|   |   |       |   TD_PunishingADodge.bk2
+|   |   |       |   TRA_AirDodge.bk2
+|   |   |       |   TRA_AvoidingPainfulFalls.bk2
+|   |   |       |   TRA_BoostJump2.bk2
+|   |   |       |   TRA_Climb.bk2
+|   |   |       |   TRA_ClimbDash.bk2
+|   |   |       |   TRA_Dash.bk2
+|   |   |       |   TRA_LongJump.bk2
+|   |   |       |   TRA_WallJump.bk2
+|   |   |       |   TutorialMediaPlayer.uasset
+|   |   |       |   TutorialMediaPlayer_Video.uasset
+|   |   |       |   TutorialMediaPlayer_Video_Mat.uasset
+|   |   |       |   TutorialPlaylist.uasset
+|   |   |       |   Welcome_Placeholder.bk2
+|   |   |       |   
+|   |   |       +---Advancedcombat
+|   |   |       |       AC_Backtoss.uasset
+|   |   |       |       AC_Backtoss_Tex.uasset
+|   |   |       |       AC_BlockRecharge.uasset
+|   |   |       |       AC_BlockRecharge_Tex.uasset
+|   |   |       |       AC_ChargeableMoves.uasset
+|   |   |       |       AC_ChargeableMoves_Tex1.uasset
+|   |   |       |       AC_Combos.uasset
+|   |   |       |       AC_Combos_Tex.uasset
+|   |   |       |       AC_ElevationDamage.uasset
+|   |   |       |       AC_ElevationDamage_Tex.uasset
+|   |   |       |       AC_Hammerfist.uasset
+|   |   |       |       AC_Hammerfist_Tex.uasset
+|   |   |       |       AC_SpinKick.uasset
+|   |   |       |       AC_SpinKick_Tex.uasset
+|   |   |       |       AC_StaminaBreak.uasset
+|   |   |       |       AC_StaminaBreak_Tex.uasset
+|   |   |       |       
+|   |   |       +---AttackPrioritySystem
+|   |   |       |       APS_AttackPriority3.uasset
+|   |   |       |       APS_AttackTrades.uasset
+|   |   |       |       APS_AttackTrades_Tex.uasset
+|   |   |       |       APS_ViciousAttacks.uasset
+|   |   |       |       APS_ViciousAttacks_Tex.uasset
+|   |   |       |       
+|   |   |       +---GetUpOptions
+|   |   |       |       GUO_GetupBackfist.uasset
+|   |   |       |       GUO_GetupBackfist_Tex.uasset
+|   |   |       |       GUO_GetUpBlock.uasset
+|   |   |       |       GUO_GetUpBlock_Tex.uasset
+|   |   |       |       GUO_GetUpCombinations.uasset
+|   |   |       |       GUO_GetUpCombinations_Tex.uasset
+|   |   |       |       GUO_GetUpDodge.uasset
+|   |   |       |       GUO_GetUpDodge_Tex.uasset
+|   |   |       |       GUO_GetUpLowBlow.uasset
+|   |   |       |       GUO_GetUpLowBlow_Tex.uasset
+|   |   |       |       GUO_GetUpSpecialMove.uasset
+|   |   |       |       GUO_GetUpSpecialMove_Tex.uasset
+|   |   |       |       GUO_GroundAttacks.uasset
+|   |   |       |       GUO_GroundAttacks_Tex.uasset
+|   |   |       |       GUO_Knockdowns.uasset
+|   |   |       |       GUO_Knockdowns_Tex.uasset
+|   |   |       |       
+|   |   |       +---Inventory
+|   |   |       |       INV_DisarmWithDropkick.uasset
+|   |   |       |       INV_DisarmWithDropkick_Tex.uasset
+|   |   |       |       INV_GettingToKnowTheCity.uasset
+|   |   |       |       INV_ItemThrowing.uasset
+|   |   |       |       INV_ItemThrowing_Tex.uasset
+|   |   |       |       INV_Pockets.uasset
+|   |   |       |       INV_Pockets_Tex.uasset
+|   |   |       |       
+|   |   |       +---Misc
+|   |   |       |       EQ_EquipUpImage.uasset
+|   |   |       |       PG_Welcome3.uasset
+|   |   |       |       PG_Welcome3_Tex.uasset
+|   |   |       |       PG_WelcomeImage.uasset
+|   |   |       |       Welcome_Placeholder.uasset
+|   |   |       |       Welcome_Placeholder_Tex.uasset
+|   |   |       |       
+|   |   |       +---StatsAndPerks
+|   |   |       |       SP_PerksAndCombatXP.uasset
+|   |   |       |       SP_PerksAndCombatXP_Tex.uasset
+|   |   |       |       SP_PerkSynergy.uasset
+|   |   |       |       SP_PerkSynergy_Tex.uasset
+|   |   |       |       SP_RumblerStats.uasset
+|   |   |       |       SP_RumblerStats_Tex.uasset
+|   |   |       |       
+|   |   |       +---SuperstarAndComeback
+|   |   |       |       SMC_ActivationExplosion.uasset
+|   |   |       |       SMC_ActivationExplosion_Tex.uasset
+|   |   |       |       SMC_Comeback.uasset
+|   |   |       |       SMC_Comeback_Tex.uasset
+|   |   |       |       SMC_FillingMeter.uasset
+|   |   |       |       SMC_FillingMeter_Tex.uasset
+|   |   |       |       SMC_QuickActivation.uasset
+|   |   |       |       SMC_QuickActivation_Tex.uasset
+|   |   |       |       SMC_SuperAttack.uasset
+|   |   |       |       SMC_SuperAttack_Tex.uasset
+|   |   |       |       SMC_SuperBenefits2.uasset
+|   |   |       |       SMC_SuperBenefits2_Tex.uasset
+|   |   |       |       
+|   |   |       +---TrackingAndDodging
+|   |   |       |       TD_AttackTracking.uasset
+|   |   |       |       TD_AttackTracking_Tex.uasset
+|   |   |       |       TD_Backflip.uasset
+|   |   |       |       TD_Backflip_Tex.uasset
+|   |   |       |       TD_BailoutOnHit.uasset
+|   |   |       |       TD_BailoutOnHit_Tex.uasset
+|   |   |       |       TD_BailoutOnMiss.uasset
+|   |   |       |       TD_BailoutOnMiss_Tex.uasset
+|   |   |       |       TD_CommitmentsAndBailouts.uasset
+|   |   |       |       TD_CommitmentsAndBailouts_Tex.uasset
+|   |   |       |       TD_Dodge.uasset
+|   |   |       |       TD_Dodge_Tex.uasset
+|   |   |       |       TD_PunishingADodge.uasset
+|   |   |       |       TD_PunishingADodge_Tex.uasset
+|   |   |       |       
+|   |   |       \---Traversal
+|   |   |               TRA_AirDodge.uasset
+|   |   |               TRA_AirDodge_Tex.uasset
+|   |   |               TRA_AvoidingPainfulFalls.uasset
+|   |   |               TRA_AvoidingPainfulFalls_Tex.uasset
+|   |   |               TRA_BoostJump.uasset
+|   |   |               TRA_BoostJump2.uasset
+|   |   |               TRA_BoostJump2_Tex.uasset
+|   |   |               TRA_BoostJump_Tex.uasset
+|   |   |               TRA_Climb.uasset
+|   |   |               TRA_ClimbDash.uasset
+|   |   |               TRA_ClimbDash_Tex.uasset
+|   |   |               TRA_Climb_Tex.uasset
+|   |   |               TRA_Dash.uasset
+|   |   |               TRA_Dash_Tex.uasset
+|   |   |               TRA_LongJump.uasset
+|   |   |               TRA_LongJump_Tex.uasset
+|   |   |               TRA_WallJump.uasset
+|   |   |               TRA_WallJump_Tex.uasset
+|   |   |               
+|   |   +---Paks
+|   |   |       global.ucas
+|   |   |       global.utoc
+|   |   |       Rumbleverse-WindowsClient.pak
+|   |   |       Rumbleverse-WindowsClient.ucas
+|   |   |       Rumbleverse-WindowsClient.utoc
+|   |   |       Rumbleverse-WindowsClient_P.pak
+|   |   |       
+|   |   \---UI
+|   |       |   READ.txt
+|   |       |   
+|   |       \---PlatformIcons
+|   |               save_data128.png
+|   |               save_data388.png
+|   |               
+|   \---UserReplayWindow
+|       +---Intermediate
+|       |   \---AssetRegistryCache
+|       |           55ae1db5NoDeps.bin
+|       |           6cb42376NoDeps.bin
+|       |           
+|       \---Saved
+|           +---Config
+|           |   +---CrashReportClient
+|           |   |   \---UE4CC-Windows-54AAA71C464339E727733AAAA5C83C05
+|           |   |           CrashReportClient.ini
+|           |   |           
+|           |   \---WindowsClient
+|           |           Compat.ini
+|           |           DeviceProfiles.ini
+|           |           EditorScriptingUtilities.ini
+|           |           Engine.ini
+|           |           Game.ini
+|           |           GameplayTags.ini
+|           |           GameUserSettings.ini
+|           |           Hardware.ini
+|           |           IGCozmo.ini
+|           |           IGUserInterface.ini
+|           |           Input.ini
+|           |           MotoSynth.ini
+|           |           Niagara.ini
+|           |           PhysXVehicles.ini
+|           |           RuntimeOptions.ini
+|           |           Scalability.ini
+|           |           Synthesis.ini
+|           |           VariantManagerContent.ini
+|           |           
+|           +---Logs
+|           |       rVclient-replay.log
+|           |       
+|           \---SaveGames
+|                   Default_Settings.sav
+|                   
+\---rumblewersfad
+        .gitattributes
+        

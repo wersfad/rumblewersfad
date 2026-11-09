@@ -1,0 +1,8 @@
+{
+  "description": "Обязательные файлы для Repair Files. Поле sha256 опционально: если задано, сверяется хэш.",
+  "files": [
+    { "path": "RumbleverseClient-Win64-Shipping.exe" },
+    { "path": "Engine/Binaries/Win64/" },
+    { "path": "RumbleverseGame/Content/" }
+  ]
+}

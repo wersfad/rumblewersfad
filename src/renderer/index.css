@@ -1,0 +1,40 @@
+@import './theme.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-ui);
+  font-weight: 500;
+  color: var(--text-1);
+  background:
+    radial-gradient(1200px 600px at 80% -10%, var(--glow-1), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, var(--glow-2), transparent 55%),
+    linear-gradient(160deg, var(--bg-1), var(--bg-2));
+  background-color: var(--bg-1);
+  /* Windows 10 fallback: полупрозрачность + blur (на Win11 работает acrylic-материал) */
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  user-select: none;
+}
+
+#root {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+input,
+textarea,
+select {
+  user-select: text;
+}

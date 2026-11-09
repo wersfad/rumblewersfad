@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#E9E2FF"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#1E0A3C" flood-opacity="0.9"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#8B5CF6" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="48" fill="url(#bg)"/>
+  <g transform="skewX(-8) translate(18,0)">
+    <text x="34" y="158" font-family="Arial Black, Arial, sans-serif" font-style="italic" font-weight="900" font-size="96" fill="url(#fg)" stroke="#2A1060" stroke-width="7" paint-order="stroke" filter="url(#sh)">R</text>
+    <text x="42" y="205" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="rgba(255,255,255,0.85)" letter-spacing="4">LAUNCHER</text>
+  </g>
+</svg>

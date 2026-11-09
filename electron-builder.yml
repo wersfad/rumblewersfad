@@ -1,0 +1,38 @@
+appId: com.rumblewersfad.launcher
+productName: Rumblewersfad
+directories:
+  output: release
+  buildResources: assets
+files:
+  - dist/**/*
+  - config/**/*
+  - public/news.json
+  - public/build-info.json
+  - assets/icon.png
+  - assets/icon.ico
+  - server/**/*
+  - package.json
+
+# Регистрация deep link для пригласительных ссылок
+protocols:
+  name: Rumblewersfad Invite
+  schemes:
+    - rumblewersfad
+win:
+  # Без Developer Mode 7za не может развернуть symlink-и winCodeSign.
+  # false = без подписи exe и без вшивания иконки/метаданных в exe
+  # (иконка установщика и ярлыков при этом используется).
+  signAndEditExecutable: false
+  target:
+    - nsis
+  icon: assets/icon.ico
+  artifactName: ${productName}-Setup-${version}.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  shortcutName: Rumblewersfad
+  createDesktopShortcut: true
+  installerIcon: assets/icon.ico
+  uninstallerIcon: assets/icon.ico
+asar: true

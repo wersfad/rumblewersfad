@@ -1,0 +1,270 @@
+/* ============================================================
+   Rumblewersfad theme — все визуальные переменные в одном месте
+   ============================================================ */
+
+/* Подключаемые шрифты. Чтобы заменить шрифт — просто положите
+   свой файл в assets/fonts и обновите src ниже (или имя файла). */
+/* Display-шрифт в духе логотипа Rumbleverse (бесплатный аналог, OFL) */
+@font-face {
+  font-family: 'Titan One';
+  src: url('../../assets/fonts/TitanOne-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* UI-шрифт в боевом techy-стиле интерфейса Rumbleverse (OFL) */
+@font-face {
+  font-family: 'Chakra Petch';
+  src: url('../../assets/fonts/ChakraPetch-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Chakra Petch';
+  src: url('../../assets/fonts/ChakraPetch-600.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Chakra Petch';
+  src: url('../../assets/fonts/ChakraPetch-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Тема по умолчанию: полупрозрачный фиолетово-белый градиент */
+  --bg-1: rgba(20, 12, 40, 0.65);
+  --bg-2: rgba(88, 40, 180, 0.45);
+  --glow-1: rgba(167, 139, 250, 0.25);
+  --glow-2: rgba(88, 40, 180, 0.35);
+
+  /* Акцент */
+  --accent-1: #8b5cf6;
+  --accent-2: #a78bfa;
+  --accent-grad: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+  --accent-glow: rgba(139, 92, 246, 0.35);
+  --accent-glow-hover: rgba(139, 92, 246, 0.5);
+
+  /* Текст */
+  --text-1: #ffffff;
+  --text-2: rgba(255, 255, 255, 0.7);
+  --text-3: rgba(255, 255, 255, 0.45);
+
+  /* Карточки */
+  --card-bg: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(255, 255, 255, 0.12);
+  --card-shadow: 0 0 24px var(--accent-glow);
+  --card-shadow-hover: 0 6px 32px var(--accent-glow-hover);
+
+  /* Свечения и «неон» — в фиолетовой теме фиолетовые, в тёмной — белые/прозрачные */
+  --display-glow: rgba(139, 92, 246, 0.55);
+  --display-stroke: rgba(30, 10, 60, 0.9);
+  --logo-stroke: #2a1060;
+  --logo-glow: rgba(139, 92, 246, 0.6);
+  --pulse-ring: rgba(139, 92, 246, 0.55);
+  --pulse-halo: rgba(167, 139, 250, 0.8);
+  --btn-shadow: 0 4px 18px rgba(139, 92, 246, 0.45);
+  --btn-shadow-hover: 0 10px 30px rgba(139, 92, 246, 0.65);
+  --btn-shadow-active: 0 3px 12px rgba(139, 92, 246, 0.4);
+  --nav-glow: 0 4px 16px rgba(139, 92, 246, 0.5);
+  --banner-glow-1: rgba(167, 139, 250, 0.5);
+  --banner-glow-2: rgba(76, 29, 149, 0.8);
+
+  /* Прочее */
+  --radius: 16px;
+  --danger: #f87171;
+  --success: #34d399;
+  --warning: #fbbf24;
+
+  /* Шрифты (замените файлы в assets/fonts, чтобы сменить начертание) */
+  --font-display: 'Titan One', 'Arial Black', 'Chakra Petch', sans-serif;
+  --font-ui: 'Chakra Petch', 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Вторая тема: прозрачно-чёрная с белыми деталями, без фиолетового */
+:root[data-theme='dark'] {
+  --bg-1: rgba(5, 5, 8, 0.78);
+  --bg-2: rgba(16, 16, 20, 0.6);
+  --glow-1: rgba(255, 255, 255, 0.05);
+  --glow-2: rgba(255, 255, 255, 0.03);
+
+  --accent-1: #3f3f46;
+  --accent-2: #d4d4d8;
+  --accent-grad: linear-gradient(135deg, #52525b, #e4e4e7);
+  --accent-glow: rgba(255, 255, 255, 0.06);
+  --accent-glow-hover: rgba(255, 255, 255, 0.12);
+
+  --text-1: #ffffff;
+  --text-2: rgba(255, 255, 255, 0.78);
+  --text-3: rgba(255, 255, 255, 0.45);
+
+  --card-bg: rgba(255, 255, 255, 0.04);
+  --card-border: rgba(255, 255, 255, 0.12);
+  --card-shadow: 0 0 18px rgba(255, 255, 255, 0.05);
+  --card-shadow-hover: 0 6px 28px rgba(255, 255, 255, 0.1);
+
+  --display-glow: rgba(255, 255, 255, 0.28);
+  --display-stroke: rgba(0, 0, 0, 0.9);
+  --logo-stroke: #050505;
+  --logo-glow: rgba(255, 255, 255, 0.25);
+  --pulse-ring: rgba(255, 255, 255, 0.35);
+  --pulse-halo: rgba(255, 255, 255, 0.55);
+  --btn-shadow: 0 4px 16px rgba(255, 255, 255, 0.12);
+  --btn-shadow-hover: 0 10px 28px rgba(255, 255, 255, 0.2);
+  --btn-shadow-active: 0 3px 10px rgba(255, 255, 255, 0.1);
+  --nav-glow: 0 4px 16px rgba(255, 255, 255, 0.15);
+  --banner-glow-1: rgba(255, 255, 255, 0.12);
+  --banner-glow-2: rgba(255, 255, 255, 0.05);
+}
+
+/* В тёмной теме фиолетовые утилиты Tailwind становятся белыми/серыми */
+:root[data-theme='dark'] .text-violet-300,
+:root[data-theme='dark'] .text-violet-300\/90,
+:root[data-theme='dark'] .text-violet-300\/80 {
+  color: #e4e4e7 !important;
+}
+:root[data-theme='dark'] .bg-violet-500\/10 { background-color: rgba(255, 255, 255, 0.08) !important; }
+:root[data-theme='dark'] .border-violet-400\/20,
+:root[data-theme='dark'] .border-violet-400\/30 { border-color: rgba(255, 255, 255, 0.2) !important; }
+:root[data-theme='dark'] .hover\:bg-violet-500\/20:hover { background-color: rgba(255, 255, 255, 0.1) !important; }
+:root[data-theme='dark'] .hover\:bg-violet-500\/30:hover { background-color: rgba(255, 255, 255, 0.12) !important; }
+:root[data-theme='dark'] .bg-violet-500\/60 { background-color: rgba(255, 255, 255, 0.25) !important; }
+:root[data-theme='dark'] .bg-violet-500 { background-color: #71717a !important; }
+
+/* Display-шрифт Rumblewersfad — везде на кнопках и навигации */
+button {
+  font-family: var(--font-display);
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-shadow: 0 1px 0 rgba(20, 8, 44, 0.6);
+}
+input,
+select,
+textarea {
+  font-family: var(--font-ui);
+  font-weight: 600;
+}
+
+/* Display-заголовки: жирный наклонный рубленый стиль à la Rumbleverse */
+.font-display {
+  font-family: var(--font-display);
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--text-1);
+  -webkit-text-stroke: 1.5px var(--display-stroke);
+  text-shadow:
+    0 2px 0 var(--display-stroke),
+    0 4px 12px rgba(0, 0, 0, 0.55),
+    0 0 18px var(--display-glow);
+}
+
+/* Плавные анимации всех интерактивных элементов */
+button,
+.btn-accent,
+.glass-card.hoverable {
+  transition-property: transform, box-shadow, background-color, color, filter, opacity, border-color;
+  transition-duration: 0.22s;
+  transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  will-change: transform;
+}
+
+.skew-display {
+  display: inline-block;
+  transform: skewX(-8deg);
+}
+
+/* Градиентная кнопка */
+.btn-accent {
+  background: var(--accent-grad);
+  color: #fff;
+  box-shadow: var(--btn-shadow);
+}
+.btn-accent:hover:not(:disabled) {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: var(--btn-shadow-hover);
+  filter: brightness(1.1);
+}
+.btn-accent:active:not(:disabled) {
+  transform: translateY(0) scale(0.97);
+  box-shadow: var(--btn-shadow-active);
+}
+.btn-accent:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Пульсация кнопки PLAY */
+@keyframes playPulse {
+  0%, 100% { box-shadow: 0 0 0 0 var(--pulse-ring), var(--btn-shadow); transform: scale(1); }
+  50% { box-shadow: 0 0 0 16px transparent, 0 6px 30px var(--pulse-halo); transform: scale(1.02); }
+}
+.play-pulse {
+  animation: playPulse 2.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Анимированный прогресс-бар */
+@keyframes progressStripes {
+  from { background-position: 0 0; }
+  to { background-position: 40px 0; }
+}
+.progress-animated {
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.25) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0.25) 75%,
+    transparent 75%
+  );
+  background-size: 40px 40px;
+  animation: progressStripes 1s linear infinite;
+}
+
+/* Область перетаскивания окна */
+.drag-region {
+  -webkit-app-region: drag;
+}
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+/* Карточка-стекло */
+.glass-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow: var(--card-shadow);
+}
+.glass-card.hoverable:hover {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: var(--card-shadow-hover);
+}
+.glass-card.hoverable:active {
+  transform: translateY(-1px) scale(0.99);
+}
+
+/* Полоса прокрутки */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.4);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.65);
+}

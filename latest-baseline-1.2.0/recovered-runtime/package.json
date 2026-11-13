@@ -1,0 +1,17 @@
+{
+  "name": "rumblewersfad",
+  "version": "1.2.0",
+  "description": "Unofficial fan launcher & stats companion for Rumbleverse (Rumblewersfad)",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/main/bootstrap.js",
+  "author": "Rumblewersfad contributors",
+  "dependencies": {
+    "electron-store": "^10.0.0",
+    "framer-motion": "^11.11.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.5.5"
+  },
+  "productName": "Rumblewersfad Launcher"
+}

@@ -1,0 +1,10 @@
+{
+  "executables": [
+    "Rumbleverse.exe",
+    "RumbleverseClient.exe",
+    "RumbleverseClient-Win64-Shipping.exe",
+    "RumbleverseClient-Win32-Shipping.exe"
+  ],
+  "keyFolders": ["Engine", "Rumbleverse", "RumbleverseGame", "Content"],
+  "keyFiles": ["RumbleverseClient.exe", "Manifest.txt"]
+}

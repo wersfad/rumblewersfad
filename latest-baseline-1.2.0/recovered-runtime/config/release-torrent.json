@@ -1,0 +1,9 @@
+{
+  "trackers": [
+    "udp://tracker.opentrackr.org:1337/announce",
+    "udp://open.stealth.si:80/announce",
+    "udp://tracker.torrent.eu.org:451/announce"
+  ],
+  "webSeeds": [],
+  "pieceLength": 524288
+}

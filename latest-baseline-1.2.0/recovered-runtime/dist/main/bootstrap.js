@@ -1,0 +1,13 @@
+import { app } from "electron";
+import path from "node:path";
+import fs from "node:fs";
+const legacyUserData = path.join(app.getPath("appData"), "rumblewersfad");
+fs.mkdirSync(legacyUserData, { recursive: true });
+app.setPath("userData", legacyUserData);
+app.setName("Rumblewersfad Launcher");
+if (process.platform === "win32") app.setAppUserModelId("com.rumblewersfad.launcher");
+const { brandingReport } = await import("./brandingReport.js");
+brandingReport("bootstrap 1.2.0; EXE=" + process.execPath, true);
+const { configureBundledGame } = await import("./portableGame.js");
+configureBundledGame();
+await import("./main.js");

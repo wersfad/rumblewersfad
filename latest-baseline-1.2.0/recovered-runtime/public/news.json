@@ -1,0 +1,23 @@
+[
+  {
+    "id": "n1",
+    "title": "Welcome to Rumblewersfad",
+    "date": "2026-11-01",
+    "tag": "Launcher",
+    "text": "Unofficial fan launcher for Rumbleverse. Select your game folder in Quick Actions and press PLAY."
+  },
+  {
+    "id": "n2",
+    "title": "Season stats tracking",
+    "date": "2026-10-28",
+    "tag": "Stats",
+    "text": "Track wins, eliminations and placement in the My Matches tab. Local storage by default, or connect your own API in Settings."
+  },
+  {
+    "id": "n3",
+    "title": "Safe Mode",
+    "date": "2026-10-20",
+    "tag": "Tools",
+    "text": "If the game crashes, launch it in Safe Mode with custom arguments configured in Settings."
+  }
+]
